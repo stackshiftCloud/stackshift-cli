@@ -2,6 +2,21 @@
 
 Signed command-line releases for StackShift.
 
+## Package managers
+
+Homebrew:
+
+```sh
+brew install stackshiftCloud/tap/stackshift
+```
+
+Scoop:
+
+```powershell
+scoop bucket add stackshift https://github.com/stackshiftCloud/scoop-bucket
+scoop install stackshift
+```
+
 ## Install on macOS or Linux
 
 Install `cosign`, then run:
